@@ -14,7 +14,7 @@ clean:
 	rm -f $(ADD_PATH_SCRIPT_NAME).m
 	rm -f $(TEST_SCRIPTS)
 
-$(TEST_DIR)/test_%.m: $(TEST_DIR)/test_%.pp.m
+$(TEST_DIR)/test_%.m: $(TEST_DIR)/test_%.mpp
 	cpp \
 		-D TEST_NAME=test_$(*F) \
 		-include $(TEST_DIR)/$(TEST_BOILERPLATE) \
