@@ -1,0 +1,6 @@
+add_to_path_configured.m
+**/pathdef.m
+**/add_collection_to_this_project.m
+*~
+test/*.m
+!test/*.mpp

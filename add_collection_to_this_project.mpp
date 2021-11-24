@@ -1,0 +1,4 @@
+#ifdef LIBDIR
+addpath(LIBDIR);
+savepath("./pathdef.m");
+#endif // ifdef LIBDIR
